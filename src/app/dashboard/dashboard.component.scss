@@ -6,11 +6,23 @@
 
 .vert-nav{
   background-color: #714B67;
-  width: 7%;
+  width: 8%;
   height: 100vh;
   position: fixed;
+  scrollbar-color: #714B67 #714B67;
+  scrollbar-width: thin;
 }
 
+.date-container{
+  float: right;
+  margin-right: 15px;
+  border: solid;
+  border-radius: 5px;
+  padding: 10px 0px 10px 0px;
+  border-width: thin;
+  border-color: #D9D9D9;
+  cursor: pointer;
+}
 
 .mat-icon{
   font-size: 18px;
@@ -84,6 +96,35 @@
   background-color: #E8F5FF;
   border-radius: 100px;
   float: right;
+}
+
+.nav-select{
+  padding: 8px;
+  border-radius: 6px;
+  background-color: #714b67;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.nav-select:hover {
+  padding: 8px;
+  border-radius: 6px;
+  background-color: #896981;
+  cursor: pointer;
+}
+
+
+.nav-title{
+  color: #ffffff;
+  font-size: 10px;
+  font-weight:400;
+  margin-bottom: 0px;
+  line-height: 16px !important;
+}
+
+.nav-icon{
+
+  margin-bottom: 10px;
 }
 
 .data-cards{

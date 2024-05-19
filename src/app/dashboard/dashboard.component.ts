@@ -32,6 +32,9 @@ export class DashboardComponent {
   @ViewChild("chart") chart: ChartComponent;
   public chartOptions: Partial<ChartOptions>;
 
+  initDate: Date = new Date("2024-04-17");
+  destDate: Date = new Date("2024-05-21");
+
   constructor() {
     this.chartOptions = {
       series: [
@@ -133,7 +136,7 @@ export class DashboardComponent {
         }
       },
       title: {
-        text: "Monthly Inflation in Argentina, 2002",
+        text: "",
         floating: true,
         offsetY: 320,
         align: "center",

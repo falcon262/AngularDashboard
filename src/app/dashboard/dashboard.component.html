@@ -1,10 +1,49 @@
-<!-- <div class="dash-body">
-
-</div> -->
 <div class="row w-100">
   <div class="col-lg-1">
-    <div class="vert-nav">
+    <div class="vert-nav overflow-x-hidden">
       <!-- Nav Items -->
+      <div class="row p-2 mt-2">
+        <div class="col">
+
+          <div class="nav-select">
+            <img src="/assets/images/dashboard-circle.svg" width="25px" alt="logo" class="nav-icon">
+            <h4 class="nav-title">Dashboard</h4>
+          </div>
+          <div class="nav-select">
+            <img src="/assets/images/book.svg" width="25px" alt="logo" class="nav-icon">
+            <h4 class="nav-title">Matrial Types</h4>
+          </div>
+          <div class="nav-select">
+            <img src="/assets/images/lotts.svg" width="25px" alt="logo" class="nav-icon">
+            <h4 class="nav-title">Manage Lot</h4>
+          </div>
+          <div class="nav-select">
+            <img src="/assets/images/laptop.svg" width="25px" alt="logo" class="nav-icon">
+            <h4 class="nav-title">Batches</h4>
+          </div>
+          <div class="nav-select">
+            <img src="/assets/images/aiphone.svg" width="25px" alt="logo" class="nav-icon">
+            <h4 class="nav-title">Sample</h4>
+          </div>
+          <div class="nav-select">
+            <img src="/assets/images/ambulance.svg" width="25px" alt="logo" class="nav-icon">
+            <h4 class="nav-title">Shipment</h4>
+          </div>
+          <div class="nav-select">
+            <img src="/assets/images/apple-reminder.svg" width="25px" alt="logo" class="nav-icon">
+            <h4 class="nav-title">Manage Assay</h4>
+          </div>
+          <div class="nav-select">
+            <img src="/assets/images/tag-01.svg" width="25px" alt="logo" class="nav-icon">
+            <h4 class="nav-title">Finished Product</h4>
+          </div>
+          <div class="nav-select">
+            <img src="/assets/images/workflow-square-06.svg" width="25px" alt="logo" class="nav-icon">
+            <h4 class="nav-title">Work Management</h4>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
   <div class="col-lg-11">
@@ -27,16 +66,29 @@
         </div>
       </div>
     </div>
-    <div class="row ms-2 mt-3">
+    <div class="row ms-4 mt-3">
       <div class="col">
         <h2 class="mb-0">Welcome, Joseph Asante <img src="/assets/images/happyemoji.svg" width="24px" alt="logo"></h2>
         <h5>Today is Saturday, 11th April 2024.</h5>
       </div>
       <div class="col">
         <!-- Date Dropdown -->
+        <div class="row date-container">
+          <div class="col-lg-2" style="margin-top: 3px;">
+            <img src="/assets/images/date.svg" width="33px" alt="logo">
+          </div>
+          <div class="col-lg-8">
+            <h5 class="mb-0" style="font-size: 14px; font-weight: 500;">Filter Period</h5>
+            <h5 class="mb-0">{{initDate | date}} - {{destDate | date}}</h5>
+          </div>
+          <div class="col-lg-2" style="padding-left: 5px;">
+            <img src="/assets/images/dropdown.svg" width="20px" alt="logo">
+          </div>
+        </div>
+
       </div>
     </div>
-    <div class="row ms-2 mt-3 me-1">
+    <div class="row ms-4 mt-3 me-1">
       <div class="col">
         <mat-card>
           <mat-card-content>
@@ -55,7 +107,8 @@
             </div>
             <div class="row">
               <div class="col-lg-8 ms-1">
-                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 12 more than last quarter</h5>
+                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 12 more than
+                  last quarter</h5>
               </div>
             </div>
           </mat-card-content>
@@ -79,7 +132,8 @@
             </div>
             <div class="row">
               <div class="col-lg-8 ms-1">
-                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/down.svg"> 0.2% lower than last quarter</h5>
+                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/down.svg"> 0.2% lower
+                  than last quarter</h5>
               </div>
             </div>
           </mat-card-content>
@@ -103,7 +157,8 @@
             </div>
             <div class="row">
               <div class="col-lg-8 ms-1">
-                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than last quarter</h5>
+                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than
+                  last quarter</h5>
               </div>
             </div>
           </mat-card-content>
@@ -127,14 +182,15 @@
             </div>
             <div class="row">
               <div class="col-lg-8 ms-1">
-                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than last quarter</h5>
+                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than
+                  last quarter</h5>
               </div>
             </div>
           </mat-card-content>
         </mat-card>
       </div>
     </div>
-    <div class="row ms-2 mt-3 me-1">
+    <div class="row ms-4 mt-3 me-1">
       <div class="col">
         <mat-card>
           <mat-card-content>
@@ -153,7 +209,8 @@
             </div>
             <div class="row">
               <div class="col-lg-8 ms-1">
-                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than last quarter</h5>
+                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than
+                  last quarter</h5>
               </div>
             </div>
           </mat-card-content>
@@ -177,7 +234,8 @@
             </div>
             <div class="row">
               <div class="col-lg-8 ms-1">
-                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than last quarter</h5>
+                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than
+                  last quarter</h5>
               </div>
             </div>
           </mat-card-content>
@@ -201,7 +259,8 @@
             </div>
             <div class="row">
               <div class="col-lg-8 ms-1">
-                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/down.svg"> 0.2 lower than last quarter</h5>
+                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/down.svg"> 0.2 lower
+                  than last quarter</h5>
               </div>
             </div>
           </mat-card-content>
@@ -225,29 +284,24 @@
             </div>
             <div class="row">
               <div class="col-lg-8 ms-1">
-                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than last quarter</h5>
+                <h5 class="mb-0" style="font-size: 10px; color: #414141;"><img src="/assets/images/up.svg"> 2% more than
+                  last quarter</h5>
               </div>
             </div>
           </mat-card-content>
         </mat-card>
       </div>
     </div>
-    <div class="row ms-2 mt-3 me-1">
+    <div class="row ms-4 mt-3 me-1">
       <div class="col">
         <mat-card>
           <mat-card-content>
             <div id="chart">
               <div id="chart">
-                <apx-chart
-                  [series]="chartOptions.series"
-                  [chart]="chartOptions.chart"
-                  [dataLabels]="chartOptions.dataLabels"
-                  [plotOptions]="chartOptions.plotOptions"
-                  [yaxis]="chartOptions.yaxis"
-                  [xaxis]="chartOptions.xaxis"
-                  [fill]="chartOptions.fill"
-                  [title]="chartOptions.title"
-                ></apx-chart>
+                <apx-chart [series]="chartOptions.series" [chart]="chartOptions.chart"
+                  [dataLabels]="chartOptions.dataLabels" [plotOptions]="chartOptions.plotOptions"
+                  [yaxis]="chartOptions.yaxis" [xaxis]="chartOptions.xaxis" [fill]="chartOptions.fill"
+                  [title]="chartOptions.title"></apx-chart>
               </div>
             </div>
           </mat-card-content>
